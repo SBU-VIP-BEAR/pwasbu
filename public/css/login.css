@@ -1,0 +1,209 @@
+.container{
+    width: 100%;
+    margin: 30px auto;
+    margin-top: 0px;
+}
+
+.login-form input{
+    margin-bottom: 30px;
+}
+
+.signup,
+.login{
+    width: 100%;
+    background: #fff;
+    color: var(--primary-color);
+    font-size: 2.0rem;
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.signup-form{
+    background: #fff;
+    padding: 40px;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    height: 700px;
+}
+.login-form{
+    background: #fff;
+    padding: 10px 40px 40px 40px;
+    clear: both;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+}
+.input{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    color: #3e3e40;
+    font-size: 2.0rem;
+    outline: none;
+    transform: all 0.5s ease;
+}
+.nav-item{
+    text-align:left;
+}
+.bdrlessBtn{
+    padding: 0;
+    border: none;
+    background: none;
+}
+.input:focus{
+    border: 2px solid #840101;
+}
+.pass-comment{
+    margin-top: -25px;
+    font-size: 1.5rem; 
+    text-align: center;
+    color: #dc3545;
+}
+.error-msg {
+    margin-top: 25px;
+    text-align: center;
+    color: #dc3545;
+    font-size: 20px;
+}
+#google-button {
+    color: white;
+    font-size: 1.8rem;
+}
+.btn{
+    border-radius: 10px;
+    padding: 10px 4px;
+    background: var(--primary-color);
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn:active {
+    background: var(--secondary-color);
+    color: white;
+}
+
+span a{
+    text-decoration: none;
+    color: #000;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #d5dbda;
+    /* font-family: "Arial Black"; */
+    font-family: 'Roboto', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: #d5dbda;
+    /* font-family: "Arial Black"; */
+    font-family: 'Roboto', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    color: #d5dbda;
+    /* font-family: "Arial Black"; */
+    font-family: 'Roboto', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: #d5dbda;
+    /* font-family: "Arial Black";*/
+    font-family: 'Roboto', sans-serif;
+} 
+
+.loader {
+    margin-left: auto;
+    margin-right: auto;
+    border: 12px solid #f3f3f3; /* Light grey */
+    border-top: 12px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.aspectwrapper {
+     display: inline-block; /* shrink to fit */
+     width: 100%;           /* whatever width you like */
+     position: relative;    /* so .content can use position: absolute */
+ }
+
+ #signup-birthdate
+ {
+     font-size: 1.8rem;
+ }
+
+ div.dob
+ {
+     font-size: 1.5rem;
+ }
+
+ label, #forgot-email, #forgot_pass
+ {
+     font-size: 2rem;
+ }
+
+ .link:hover{
+    color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ .link{
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 2.0rem;
+    margin-top: 50px;
+}
+
+.login-btn{
+    font-size: 2.0rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.forgot-pass{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 50px;
+
+}
+
+label.form-group {
+    margin-top: 15px;
+}
+
+.email-input{
+    padding: 10px;
+    width: 650px;
+    color: black !important;
+    font-size: 1.5rem;
+    margin: 30px;
+    border: none;
+}
+
+.largeText{
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+#forgot-button{
+    margin: 15px;
+}
+
+@media screen and (max-width: 320px){ 
+    .email-input{
+        width: 100px;
+    }  
+}
+

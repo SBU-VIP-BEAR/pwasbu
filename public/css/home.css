@@ -1,0 +1,112 @@
+/*this is on the home page*/
+#menu-user {
+    font-size: 1.8rem;
+    text-align: center;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding-top: 3rem;
+    font-weight: bold;
+}
+.col-elem {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.ath-hd{
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin: 5px;
+}
+
+.cell-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-child {
+    display: inline-block;
+}
+
+.btns-col {
+    text-align: center;
+}
+
+.home-btn {
+    width: 12rem;
+    font-weight: bold;  
+    background: var(--primary-color);
+    height: fit-content;;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border:none;
+    padding: 5px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.get-evals {
+    /* margin-top: 0.5rem; */
+    margin-bottom: 1.5rem;
+}
+
+.details-text, .user-name {
+    /* I still use .username in the home page as the camper's name */
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+#camp-quote {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+#campers {
+    border: none;
+    text-align: center;
+}
+
+#yearPickerContainer {
+    margin: 5px;
+}
+
+#offline-warnings {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+}
+
+.offline-save-warning {
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    font-size:1.5rem;
+}
+
+.logoff-warning {
+    padding: 15px;
+    background-color: #f44336;
+    color: white;
+    font-size:1.5rem; 
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
