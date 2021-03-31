@@ -5,6 +5,14 @@ A progressive web application that will allow Camp Abilities coaches and Camp Ad
 You can find the deployed live website here:
 [Camp Abilities Live Website](https://pwasbu.web.app/).
 
+
+In order to test out the PWA you can log into a coach account with the following credentials:
+<br />
+**username**: testcoach123@test.com
+<br />
+**password**: password
+
+
 This project also involves a hardware component which is able to interact with the PWA via bluetooth. Here is the code for the hardware device:
 [Camp Abilities Hardware](https://github.com/SBU-VIP-BEAR/active-sight-hardware/)
 
